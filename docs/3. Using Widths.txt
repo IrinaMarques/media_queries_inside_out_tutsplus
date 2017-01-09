@@ -1,0 +1,16 @@
+============================
+3.1 Max-Width Media Queries
+============================
+
+Create break-points
+To know the width of our browser we can use chrome and go to the developer tools and when we resize the browser we can see on the top right of the screen the dimensions there. 
+
+It's better to create break-points based on the content
+
+Media feature:
+How the content fits in a space of a browser. Get more specific. Say what it's going to happen at some point with the properties. 
+
+Ex. 
+@media (max-width: 960px) {
+   section { background-color: red; }
+}
