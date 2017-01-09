@@ -1,0 +1,5 @@
+What are Media Queries?
+
+A media query is a CSS module which allows you to limit the scope of your styles. In this lesson we'll explore the basics of what a media query is and how it is used.
+
+www.w3.org/TR/css3-mediaqueries/

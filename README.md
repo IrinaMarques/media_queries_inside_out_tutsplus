@@ -1,2 +1,4 @@
-# media_queries_inside_out_tutsplus
+# Media Queries Inside Out (tutsplus)
 Learn about media queries
+
+A tutsplus course by Craig Campbell
