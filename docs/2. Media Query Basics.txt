@@ -23,3 +23,27 @@ Then in the HTML document we add a new link to the new stylesheet, the print.css
 This is how we can use an html media query to create a separate stylesheet for when we want to print the webpage.
 
 Even when we are printing out the page our original stylesheet are still being taken to consideration the styles in the styles.css are still being used.
+
+===============================
+2.3 HTML and CSS Media Queries
+===============================
+
+Different ways we can implement media queries: 
+1. Link tag with stylesheet on HTML
+2. With media queries at the CSS document
+3. Using the import in the CSS document
+
+1. We can add in the HTML document as a stylesheet
+<link rel="stylesheet" href="css/print.css" media="print">
+
+2. We can create a section in the CSS:
+@media print {
+    header h1 {...}
+}
+
+3. We can import to the CSS document
+@import url("print.css") print;
+ body {
+    color: #333;
+    font-family: Helvetica, Arial, sans-serif;
+}
