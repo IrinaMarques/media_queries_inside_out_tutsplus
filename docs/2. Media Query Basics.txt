@@ -5,3 +5,21 @@
 In HTML head of the document we add the meta tag:
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
+
+--> https://webdesign.tutsplus.com/articles/quick-tip-dont-forget-the-viewport-meta-tag--webdesign-5972
+
+=================================
+2.2 Simplifying Designs for Print
+=================================
+
+We create a new css document called print - print.css and then we can remove all the things that aren't needed when we print the document.
+We can remove de nav bar and the advertisement.
+
+In the new print.css we put the main-menu and the advertisement with display: none.
+Then in the HTML document we add a new link to the new stylesheet, the print.css.
+
+<link rel="stylesheet" href="css/print.css" media="print">
+
+This is how we can use an html media query to create a separate stylesheet for when we want to print the webpage.
+
+Even when we are printing out the page our original stylesheet are still being taken to consideration the styles in the styles.css are still being used.
