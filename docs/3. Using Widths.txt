@@ -26,3 +26,9 @@ If we resize a width in a container it changes the all page.
 Now that we've created our max-width media query, we're going to use it to adjust our content.
 
 Create several break-points to resize and adapt the content of the page.
+
+=====================
+3.3 Styling the Menu
+=====================
+
+Navigation is often one of the first things that need to be addressed in a responsive website design. In this lesson you’ll begin styling a basic navigation menu in preparation for making it more responsive.
