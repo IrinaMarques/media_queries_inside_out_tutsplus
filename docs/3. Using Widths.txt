@@ -32,3 +32,27 @@ Create several break-points to resize and adapt the content of the page.
 =====================
 
 Navigation is often one of the first things that need to be addressed in a responsive website design. In this lesson you’ll begin styling a basic navigation menu in preparation for making it more responsive.
+
+===========================
+3.4 Creating a Menu Button
+===========================
+
+In this lesson you'll move the main menu off the edge of the browser window. Then you'll create a simple button that will eventually cause our menu to animate back onto the screen.
+
+Create a new nav with a class in HTML. <nav class='small-menu'>
+Then create a span with another class. <span class='nav-activate'>
+Add the text +Menu
+
+In the styles.css we create a nav.small-menu with the display: none
+
+Then in the media queries we create a nav.small-menu with { 
+- display: none; 
+- background-color: #777; 
+- color: white; 
+- width: 100%; (of the width of the browser); 
+- box-sizing: content-box; (it's the default value, expand when we add padding to it)
+- we can give padding
+- position: relative;
+- left: negative; (the padding defined)
+- text-align: right; 
+
