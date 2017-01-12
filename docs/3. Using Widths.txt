@@ -14,3 +14,15 @@ Ex.
 @media (max-width: 960px) {
    section { background-color: red; }
 }
+
+=======================================
+3.2 Resizing Content Based on the Width
+=======================================
+
+A max-width is not so strong as a width.
+
+If we resize a width in a container it changes the all page.
+
+Now that we've created our max-width media query, we're going to use it to adjust our content.
+
+Create several break-points to resize and adapt the content of the page.
