@@ -11,3 +11,28 @@ In the media queries we are using a min-width: 520px so the default settings are
 We can use a javascript file:
 https://github.com/scottjehl/Respond
 See the usage instructions
+
+================================
+5.2 The Future of Media Queries
+================================
+
+@media (light-level: dim | normal | washed) { }
+Chenge styles based on the light-level in the room. Dim - darker room; normal - normal light; washed - outside in the sunlight
+
+@media (update-frequency: none | slow | normal) { }
+Detects the device ability to update the screen after the content on the screen as been rendered.
+
+@media (overflow-block: none | scroll | optional-paged | paged) { }
+Behave when the device overflow the content area
+
+@media (overflow-inline: none | scroll) { }
+Detects how a device bahaves when the content overflows the viewport horizontally or to the left and right.
+
+@media (pointer: none | coarse | fine) { }
+Primary pointing system of the device - mouse or finger
+
+@media (hover: none | on-demand | hover) { }
+Determines of the device is capable of hover an item or not.
+
+@media (scripting: none | initial-only | enabled) { }
+Detects if the device as the scripting turn on or doesn't
