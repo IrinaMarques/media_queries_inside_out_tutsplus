@@ -14,3 +14,21 @@ Only browsers like chrome gonna support that option but if we added a ',' e can 
     .feature { background-image: url('../images/image-hires.jpg') } }
 
 What will be doing is loading a diferent image that's higher resolution that's going to look good on the high resolution displays such as the render display for apple devices. 
+
+================================
+4.2 Orientation and Aspect Ratio
+================================
+
+Orientation of the screen - landscape or portrait.
+
+We can create a different layout or a different column structure depending on the user is in portrait or landscape mode.
+
+To costumize the break points for the portrait and landscape we can use the aspect-ratio media feature in CSS.
+
+aspect-ratio is based on numbers separated by a slash 
+ex. aspect-ratio: 1/1 - it will be a square, width is the same size as the height. This occurs on one specific width and height, for ex. 499px x 499px
+
+If we set to max-aspect-ratio: 1/1 when it comes to 499px x 499px it stays on portrait mode. 
+
+When the width is larger then the height it turns landscape.
+When the height is larger then the width it turns portrait.
