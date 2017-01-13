@@ -1,0 +1,13 @@
+=============================
+5.1 Targeting Older Browsers
+=============================
+
+project - site 13
+How the site look on a mobile browser.
+Only the stylesheet was changed. Many styles was set to a small size to fit in a mobile browser.
+
+In the media queries we are using a min-width: 520px so the default settings are for a browser that is 480px width
+
+We can use a javascript file:
+https://github.com/scottjehl/Respond
+See the usage instructions
