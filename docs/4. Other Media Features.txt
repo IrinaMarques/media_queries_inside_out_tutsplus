@@ -57,3 +57,12 @@ This is for television type devices. There are two values here - progressive or 
 @media (grid) { } 
 Determine rather the device is grid or bitmap
 grid - tty terminal or phone display but was one fixed font, if that is the case the value of the grid will be 1. Otherwise is a bitmap and a value of the grid will be 0. 
+
+============================
+4.4 Animating on Breakpoints
+============================
+
+Create a animated effect that will occur when gets to a break point using media queries.
+
+Animating the title.
+transition: .5s width ease;
