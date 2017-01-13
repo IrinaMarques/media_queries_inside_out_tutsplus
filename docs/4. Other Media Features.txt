@@ -1,0 +1,16 @@
+========================
+4.1 Resolution Features
+========================
+
+To make images look good in devices with less pixels:
+
+.feature {
+background-image: url('.../images/images.jpg'); }
+
+Only browsers like chrome gonna support that option but if we added a ',' e can include a new resulution.
+@media 
+(-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 192dpi) {
+    .feature { background-image: url('../images/image-hires.jpg') } }
+
+What will be doing is loading a diferent image that's higher resolution that's going to look good on the high resolution displays such as the render display for apple devices. 
