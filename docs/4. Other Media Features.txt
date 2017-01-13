@@ -32,3 +32,28 @@ If we set to max-aspect-ratio: 1/1 when it comes to 499px x 499px it stays on po
 
 When the width is larger then the height it turns landscape.
 When the height is larger then the width it turns portrait.
+
+========================
+4.3 More Media Features
+========================
+
+@media (min-device-width: 480) { } 
+The width looks at the width of the browser.
+Device width is the width of the device that we are viewing the website on.
+If we want to specifically target mobile devices.
+(color) { }
+@media (min-color: 1) { } / @media 
+The number is related to how many bits per color component of the output device. It apllies to all color devices.
+
+@media (min-color-index: 256) { } 
+How many color a device can display 
+
+@media (monochrome) { } 
+It apllies to all color devices. Similar to the min-color:1
+
+@media (scan: progressive) { }
+This is for television type devices. There are two values here - progressive or interlaced.
+
+@media (grid) { } 
+Determine rather the device is grid or bitmap
+grid - tty terminal or phone display but was one fixed font, if that is the case the value of the grid will be 1. Otherwise is a bitmap and a value of the grid will be 0. 
