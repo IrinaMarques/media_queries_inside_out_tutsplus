@@ -56,3 +56,31 @@ Then in the media queries we create a nav.small-menu with {
 - left: negative; (the padding defined)
 - text-align: right; 
 
+===========================
+3.5 Making the Menu Animate
+===========================
+
+Make the Menu item clicable so our menu will animate.
+
+Go to: http://jquery.com/download/
+Then scroll down and go to CDN section and copy the script tag:
+<script src='http://code.jquery.com/jquery-1.11.0.min.js'></script>
+
+Go to the HTML document and paste ind the head of the document.
+
+To animate the buttom when we hover we have to do some styles in CSS on media query.
+.nav.activate { cursor: pointer;} 
+
+When we click on the menu --> animate
+We have to use the jquery function to make it work.
+In the HTML document we create a script tag with: 
+<script>
+$('.nav-activate').click(function(e) {
+            $('body').toggleClass('active');
+        });
+</script>
+
+After this we go to the styles.css media queries
+.main-menu { transition: .5s margin-left ease;}
+
+body.active .main-menu { margin-left: 0; }
